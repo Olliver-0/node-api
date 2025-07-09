@@ -1,0 +1,35 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "My first Node.js API! Original project from DevClub.",
+  "homepage": "https://github.com/Olliver-0/node-api#readme",
+  "bugs": {
+    "url": "https://github.com/Olliver-0/node-api/issues"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olliver-0/node-api.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Natã Gabriel de Oliveira",
+    "email": "nata.gabriel.de.oliveira@gmail.com",
+    "url": "https://github.com/Olliver-0"
+  },
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.11.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.11.1"
+  }
+}
